@@ -1,4 +1,5 @@
-name: "Mirror ${{ github.event.inputs.image }} to ${{ github.event.inputs.registry }}"
+# name: "Mirror ${{ github.event.inputs.image }} to ${{ github.event.inputs.registry }}"
+name: "Mirror image"
 
 on:
   workflow_dispatch:
