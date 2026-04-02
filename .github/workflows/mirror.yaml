@@ -22,7 +22,7 @@ on:
             Additional options to `mirror.sh` script, e.g. -f to force re-creation of
             destination images that would already exist. This is a semi-internal input
             and should only be used for debugging.
-          required: true
+          required: false
           type: string
           default: ""
         tags:
@@ -38,7 +38,7 @@ on:
             Minimal version (extracted from image tag) that the source image must have
             to be considered for mirroring. Only used when `image` does not contain a
             tag.
-          required: true
+          required: false
           type: string
           default: ""
         maxver:
@@ -46,7 +46,7 @@ on:
             Maximum version (extracted from image tag) that the source image must have
             to be considered for mirroring. Only used when `image` does not contain a
             tag.
-          required: true
+          required: false
           type: string
           default: ""
 
