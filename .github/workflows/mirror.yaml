@@ -16,7 +16,7 @@ on:
             reroot under the repository.
           required: true
           type: string
-          default: ghcr.io/${{ github.repository }}
+          default: "ghcr.io/someorg/somerepo"
         options:
           description: |
             Additional options to `mirror.sh` script, e.g. -f to force re-creation of
