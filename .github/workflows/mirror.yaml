@@ -68,7 +68,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Do mirror
-        uses: whalimeter/gh-action-image-mirror@main
+        uses: amir28/gh-action-image-mirror@fix-multiplatform
         with:
           image: '${{ inputs.image }}'
           registry: '${{ inputs.registry }}'
