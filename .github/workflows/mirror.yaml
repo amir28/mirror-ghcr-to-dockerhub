@@ -24,7 +24,7 @@ on:
             and should only be used for debugging.
           required: false
           type: string
-          default: ""
+          default: "-v"
         tags:
           description: |
             Regular expression to match against the tags of source image so they will
